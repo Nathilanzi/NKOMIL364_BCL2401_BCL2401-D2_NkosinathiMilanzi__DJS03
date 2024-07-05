@@ -117,7 +117,7 @@ getElement('[data-search-form]').addEventListener('submit', (event) => {
     updateShowMoreButton();
     window.scrollTo({ top: 0, behavior: 'smooth' });
     closeOverlay('[data-search-overlay]');
-});
+});''
 
 getElement('[data-list-button]').addEventListener('click', () => {
     createBookPreviews(matches.slice(page * BOOKS_PER_PAGE, (page + 1) * BOOKS_PER_PAGE), getElement('[data-list-items]'));
